@@ -16,8 +16,11 @@ a{
     color: #b8b8b8;
     &:hover {
     transition: 0.3s ease;
-    color: #0bfef6;
+    color: #409693;
   }
+img{
+    width:100%;
+}
 }
 `;
 

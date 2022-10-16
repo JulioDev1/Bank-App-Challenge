@@ -5,11 +5,13 @@ import {
   HeroImage,
   HeroWrapper,
 } from "./styled";
-import { Container } from "../../style/CommonStyle";
+import HeroBack from "../../images/image-mockups.png";
+import { NorightPadding } from "../../style/CommonStyle";
+import { Button } from "../../style/CommonStyle";
 export const Hero = () => {
   return (
     <div>
-      <Container>
+      <NorightPadding>
         <HeroWrapper>
           <HeroContent>
             <HeroContentWrapper>
@@ -20,11 +22,14 @@ export const Hero = () => {
                 dolorum repudiandae soluta? Ab magni veritatis veniam quae quod
                 possimus earum iusto odio velit?
               </Description>
+              <Button>Request Invite</Button>
             </HeroContentWrapper>
           </HeroContent>
-          <HeroImage></HeroImage>
+          <HeroImage>
+            <img src={HeroBack} alt="section" />
+          </HeroImage>
         </HeroWrapper>
-      </Container>
+      </NorightPadding>
     </div>
   );
 };
