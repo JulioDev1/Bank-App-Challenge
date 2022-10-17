@@ -8,7 +8,7 @@ export const Button = styled.button`
   cursor: pointer;
   color: white;
   border-radius: 2px;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 
   &:hover {
     transition: 0.3s ease;

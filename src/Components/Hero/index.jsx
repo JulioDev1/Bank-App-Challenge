@@ -18,9 +18,7 @@ export const Hero = () => {
               <TitleSection>Next Generation Working</TitleSection>
               <Description>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-                reiciendis facilis numquam ducimus quidem architecto odio
-                dolorum repudiandae soluta? Ab magni veritatis veniam quae quod
-                possimus earum iusto odio velit?
+                reiciendis facilis numquam ducimus quidem architecto
               </Description>
               <Button>Request Invite</Button>
             </HeroContentWrapper>

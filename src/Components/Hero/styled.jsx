@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import HeroImg from "../../images/bg-intro-desktop.svg";
 export const HeroWrapper = styled.div`
   width: 100%;
   display: flex;
@@ -7,14 +7,13 @@ export const HeroWrapper = styled.div`
 `;
 export const HeroContent = styled.div`
   width: 40%;
-  height: 40vh;
 `;
 export const HeroImage = styled.div`
-  width: 60%;
+  width: 80%;
   position: relative;
-  overflow: hidden;
   height: 100vh;
-
+  background: url(${HeroImg});
+  background-position: 15% 85%;
   img {
     position: absolute;
     top: -14rem;
@@ -23,9 +22,9 @@ export const HeroImage = styled.div`
 `;
 
 export const HeroContentWrapper = styled.div`
-  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
 
-  max-width: 110rem;
+  max-width: 40rem;
   p {
     padding: 2rem 0;
   }
