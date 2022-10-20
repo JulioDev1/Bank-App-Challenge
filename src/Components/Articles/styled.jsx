@@ -9,10 +9,18 @@ export const ArticleTitle = styled.h2`
   font-size: 1.5rem;
 `;
 export const ArticleGrid = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 4rem;
   gap: 2rem;
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items:center;
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
 `;
 export const ArticleCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
